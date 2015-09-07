@@ -15,4 +15,4 @@ F:\kafka\kafka_2.10-0.8.2.1>.\bin\windows\kafka-create-topic.bat --zookeeper loc
 4. Run Trade data producer - TradeDataKafkaProducer.java
 This is a java application, which writes data on Kafka topic, named tradesTopic,created at previous step.
 
-5.Run KafkaSparkStreamingApp.java to consume Trade data messages from Kafka using Spark Streaming and will also dump the data in Cassandra.This application also calculates the top N trades-book combinations, at present, based upon risk/sensitivity amount and sensitivity/risk type.
+5. Run KafkaSparkStreamingApp.java to consume Trade data messages from Kafka using Spark Streaming and will also dump the data in Cassandra.This application also calculates the top N trades-book combinations, at present, based upon risk/sensitivity amount and sensitivity/risk type.
